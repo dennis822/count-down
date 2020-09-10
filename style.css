@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("https://images.unsplash.com/photo-1536599018102-9f803c140fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"); */
+    /* background-image:url("https://www.maxpixel.net/static/photo/1x/Natural-Landscape-Valley-Japan-Mountain-4651236.jpg"); */
+    background-image:url("https://img5.goodfon.com/wallpaper/nbig/c/74/jp-nik-by-jp-nik-environments-peizazh-stil-den-art-gora-fudz.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Poppins", san-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:up;
+    color: yellow
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 3rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+
+}
